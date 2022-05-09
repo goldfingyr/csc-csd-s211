@@ -47,7 +47,7 @@ class Android implements IMicroUsbPhone {
         }
     }
 }
-/* exposing the target interface while wrapping source object */
+
 class LightningToMicroUsbAdapter implements IMicroUsbPhone {
     private final ILightningPhone lightningPhone;
 
